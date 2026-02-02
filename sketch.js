@@ -46,7 +46,7 @@ const config = {
 // SVG 読み込み（テキストとして）
 function preload() {
   // プロジェクト直下に置いた logo.svg を読み込む
-  svgRaw = loadStrings('logo_fix.svg');
+  svgRaw = loadStrings('logo_fix2.svg');
 }
 
 // SVG のアウトラインをサンプリングして、キャンバス中心を原点とした座標に変換
