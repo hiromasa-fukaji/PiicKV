@@ -187,7 +187,7 @@ function draw() {
     
     noFill();
     stroke(h, 100, 90, alpha);
-    strokeWeight(1.5 * responsiveScale); // ウィンドウサイズに合わせて線の太さもスケール
+    strokeWeight(1.5); // ウィンドウサイズに合わせて線の太さもスケール
 
     // 1本の線（ループ形状）を描く
     beginShape();
